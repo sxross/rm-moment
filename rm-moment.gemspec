@@ -1,13 +1,13 @@
 # -*- encoding: utf-8 -*-
-VERSION = "1.0"
+VERSION = "0.0.1"
 
 Gem::Specification.new do |spec|
   spec.name          = "rm-moment"
   spec.version       = VERSION
   spec.authors       = ["Steve Ross"]
   spec.email         = ["sxross@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Wraps NSMoment Cocoapod}
+  spec.summary       = %q{More idiomatic Ruby wrappers for NSMoment Cocoapod which is inspired by MomentJS. This handles a number of date/time related chores.}
   spec.homepage      = ""
   spec.license       = ""
 
@@ -20,4 +20,5 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "rake"
+  spec.add_development_dependency ""
 end

@@ -1,4 +1,11 @@
 source 'https://rubygems.org'
 
-gem 'rake'
-# Add your dependencies here:
+# Rubygems
+gem "rake"
+
+gem 'guard'
+gem 'guard-test'
+
+# Cocoapods
+gem "motion-cocoapods", '~> 1.3'
+gem "cocoapods"
